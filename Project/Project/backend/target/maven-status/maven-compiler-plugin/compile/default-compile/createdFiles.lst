@@ -1,0 +1,9 @@
+com\shopease\model\Order.class
+com\shopease\config\DataLoader.class
+com\shopease\model\OrderItem.class
+com\shopease\ShopEaseApplication.class
+com\shopease\repository\ProductRepository.class
+com\shopease\repository\OrderRepository.class
+com\shopease\controller\OrderController.class
+com\shopease\model\Product.class
+com\shopease\controller\ProductController.class
