@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
-import axios from 'axios'
+import axios from '../api.js'
 
 function Checkout({ cart, clearCart }) {
   const [form, setForm] = useState({ name: '', email: '', address: '', phone: '' })

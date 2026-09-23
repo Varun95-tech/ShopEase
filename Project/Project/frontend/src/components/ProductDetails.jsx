@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import { Link, useParams } from 'react-router-dom'
-import axios from 'axios'
+import axios from '../api.js'
 
 const formatPrice = value => `₹${Number(value || 0).toLocaleString('en-IN', { minimumFractionDigits: 2 })}`
 
