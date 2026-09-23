@@ -1,0 +1,19 @@
+services:
+  - type: web
+    name: ShopEase
+    runtime: docker
+    repo: https://github.com/Varun95-tech/ShopEase
+    branch: main
+    plan: free
+    region: virginia
+    dockerfilePath: Project/Project/backend/Dockerfile
+    dockerContext: Project/Project/backend
+    envVars:
+      - key: SPRING_DATASOURCE_URL
+        sync: false
+      - key: SPRING_DATASOURCE_USERNAME
+        sync: false
+      - key: SPRING_DATASOURCE_PASSWORD
+        sync: false
+      - key: APP_CORS_ALLOWED_ORIGIN
+        sync: false
